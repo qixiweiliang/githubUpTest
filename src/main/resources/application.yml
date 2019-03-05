@@ -1,0 +1,9 @@
+#文件上传的相关配置
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      location: 'F:/upload/temp/'
+      max-file-size: 2100000
+fileupload:
+  uploadlocation: 'F:/upload/temp/'
